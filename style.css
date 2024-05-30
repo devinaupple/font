@@ -1,0 +1,33 @@
+.heading{
+font-size:24px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+width: 100%;
+margin: 0px;
+}
+
+.note{
+    font-size: 20px;
+    color: rgb(231, 151, 255);
+}
+.copy_right_footer{
+position: fixed;
+color: rgb(88, 234, 245);
+bottom: 0;
+width: 100%;
+background-color: rgb(15, 184, 113);
+line-height: 3;
+text-align: center;
+}
+canvas{
+animation-name: head;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+@keyframes head{
+from{
+background-color: rgb(96, 250, 255);
+}
+to{
+background-color: rgb(114, 255, 220);
+}
+}
